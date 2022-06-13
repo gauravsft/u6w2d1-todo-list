@@ -1,0 +1,15 @@
+.buttons{
+    width: 20%;
+    height: 38px;
+    display: flex;
+    }
+    .buttons > button{
+        color: white;
+        background-color: darkslateblue;
+        margin: 7px;
+    }
+    #c{
+     font-weight: bold; 
+     font-size: 20px;  
+     margin-bottom: 5px;
+    }

@@ -1,12 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+// import Navbar from './navbar';
+import Profile from './profile';
+import ProfileSection from './todo';
 
-function Left() {
+function App() {
   return (
+    <>
+      {/* < Navbar /> */}
     <div className="App">
-        
+      < Profile />
+      <ProfileSection />
+
+
     </div>
+    </>
   );
 }
 
-export default Left;
+export default App;
